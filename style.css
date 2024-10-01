@@ -95,3 +95,32 @@
 .button:hover {
     background-color:antiquewhite;
 }
+
+@media (max-width: 1024px) {
+    .button {
+        width: 1.6em;
+        padding: 0;
+        border-radius: 0px;
+    }
+
+    .output__result-numbers {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 850px) {
+    .button {
+        width: 95%;
+        font-size: 20px;
+        border-radius: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5px;
+        padding: 0;
+    }
+
+    .buttons__grid {
+        padding: 25px;
+    }
+}
